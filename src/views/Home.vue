@@ -8,43 +8,43 @@
         <div id="downBox" class="box">
           <div>
             <div class="text">
-              <p><b>Salih </b>Gümüş</p>
+              <p><b>Salih </b>Gumus</p>
               <span>Developer</span>
             </div>
           </div>
         </div>
         <div id="downSection">
-          <h1>Selam</h1>
-          <p>
+          <h1 class="hello">Hello</h1>
+          <p class="parag">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus itaque obcaecati
             eveniet illo nisi repellat omnis amet consequuntur libero earum consequatur voluptates
             suscipit odio laboriosam, quod aliquid deleniti voluptatem ex
           </p>
         </div>
         <div id="infoSection">
-          <div class="address">Adana/Türkiye</div>
+          <div class="address">Adana/Turkey</div>
           <div id="iconSection">
             <div class="uk-column-1-2">
               <div>
-                <a href="https://www.instagram.com/sudanmerinosu/">
+                <a href="https://www.instagram.com/sudanmerinosu/" target="_blank">
                   <i class="im im-instagram" />
                 </a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/salihgumus/">
+                <a href="https://www.linkedin.com/in/salihgumus/" target="_blank">
                   <i class="im im-linkedin" />
                 </a>
               </div>
             </div>
             <div class="uk-column-1-2">
               <div>
-                <a href="https://twitter.com/sudanmerinosu">
+                <a href="https://twitter.com/sudanmerinosu" target="_blank">
                   <i class="im im-twitter" />
                 </a>
               </div>
               <div>
-                <a href="">
-                  <i class="im im-blogger" />
+                <a href="https://github.com/sudanmerinosu" target="_blank">
+                  <i class="im im-github"></i>
                 </a>
               </div>
             </div>
@@ -107,6 +107,14 @@
   height: 300px;
   position: absolute;
   margin-top: 100px;
+}
+.hello {
+  font-family: Kalam;
+}
+.parag {
+  font-family: Kalam;
+  font-size: 1;
+  font-weight: bold;
 }
 
 .text {
